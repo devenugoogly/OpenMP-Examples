@@ -1,0 +1,2 @@
+diffusion.cpp
+g++-5 -I /usr/local/include/boost -L /usr/local/lib/ -lboost_system -lboost_chrono -fopenmp diffusion.cpp
